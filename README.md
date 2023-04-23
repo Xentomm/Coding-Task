@@ -19,4 +19,23 @@ flask run
 ```
 http://127.0.0.1:5000/average/usd/2023-04-21
 ```
-- Example 2 -
+- Example 2 - to query operation 1, go to this url(returns 5.2086):
+```
+http://127.0.0.1:5000/average/gbp/2023-04-21
+```
+- Example 3 - to query operation 2, go to this url(returns 4.2932 and 42006):
+```
+http://127.0.0.1:5000/minmax/usd/10
+```
+- Example 4 - to query operation 2, go to this url(returns 5.4638 and 5.2086):
+```
+http://127.0.0.1:5000/minmax/gbp/100
+```
+- Example 5 - to query operation 3, go to this url(returns 0.087200):
+```
+http://127.0.0.1:5000/buyask/usd/20
+```
+- Example 6 - to query operation 3, go to this url(returns 0.114400):
+```
+http://127.0.0.1:5000/buyask/gbp/200
+```

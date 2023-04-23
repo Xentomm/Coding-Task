@@ -12,11 +12,11 @@ Provide a separate endpoint for each operation:
 
 ## Instructions
 - To start the server, run this command and visit browser on localhost(http://127.0.0.1:5000/ or other port):
-'''
+```
 flask run
-'''
+```
 - Example 1 - to query operation 1, go to this url(returns 4.2006):
-'''
+```
 http://127.0.0.1:5000/average/usd/2023-04-21
-'''
+```
 - Example 2 -

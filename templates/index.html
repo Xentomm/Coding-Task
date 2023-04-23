@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
+    <title>Coding Task</title>
+</head>
+<body>
+    <ch1>Tasks</ch1>
+    <hr>
+    {% for msg in message %}
+        <ch2>{{msg}}</ch2>
+        <hr>
+    {% endfor %}
+</body>
+</html>
